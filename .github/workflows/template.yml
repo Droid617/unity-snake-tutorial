@@ -136,11 +136,11 @@ jobs:
            Library-build-
            Library-
 
-     - uses: webbertakken/unity-builder@v3
+     - uses: webbertakken/unity-builder@v2
        with:
          targetPlatform: StandaloneWindows64
 
-     - uses: actions/upload-artifact@v3
+     - uses: actions/upload-artifact@v2
        with:
          name: build-StandaloneWindows64
          path: build/StandaloneWindows64
