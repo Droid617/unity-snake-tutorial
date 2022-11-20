@@ -138,6 +138,7 @@ jobs:
 
      - uses: webbertakken/unity-builder@v2
        with:
+         projectPath: unity-snake-tutorial
          targetPlatform: StandaloneWindows64
 
      - uses: actions/upload-artifact@v2
