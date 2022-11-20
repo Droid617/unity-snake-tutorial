@@ -136,10 +136,9 @@ jobs:
            # Library-build-
            # Library-
 
-     - uses: webbertakken/unity-builder@v2
+     - uses: game-ci/unity-builder@v2
        with:
-         projectPath: unity-snake-tutorial
-         unityVersion: 2019.4.34f1
+         projectPath: ./
          targetPlatform: StandaloneWindows64
 
      - uses: actions/upload-artifact@v2
